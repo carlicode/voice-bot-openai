@@ -51,7 +51,7 @@ if __name__ == "__main__":
     model = "gpt-4o"
     chat_client = OpenAIChat(api_key=api_key, model=model)
 
-    # Caso 1: Cálculo del área de un triángulo con una imagen codificada
+    # Caso 1: Cálculo del área de un triángulo con una imagen codificada en base 64
     system_prompt_1 = "Eres un profesor de álgebra."
     prompt_1 = "Calcula el área del triángulo."
     image_path = 'triangle.png'
